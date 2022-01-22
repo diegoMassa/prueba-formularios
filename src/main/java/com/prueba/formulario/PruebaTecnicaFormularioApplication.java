@@ -9,5 +9,4 @@ public class PruebaTecnicaFormularioApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(PruebaTecnicaFormularioApplication.class, args);
 	}
-
 }
