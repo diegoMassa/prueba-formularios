@@ -14,16 +14,16 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class EncuestaRequestDTO {
 
-	@NotNull(message = "Es obligatorio")
+	@NotNull(message = "es obligatorio")
 	private Long numeroDocumento;
 	
-	@Email
+	@Email (message = "debe tener un formato valido")
 	@NotNull(message = "Es obligatorio")
 	private String email;
 	
-	@NotNull(message = "Es obligatorio")
+	@NotNull(message = "es obligatorio")
 	private String comentarios;
 	
-	@NotNull(message = "Es obligatorio")
+	@NotNull(message = "es obligatorio")
 	private Long idMarcaSeleccionada;
 }
